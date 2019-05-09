@@ -4,19 +4,23 @@
 
 
 
-## How to define and use emoji in XAML only
+Emoji is represented by a single Unicode character or a specific sequence of Unicode characters.
 
 For example , 🤔 is represented by `U+1F914`.
+
+The full list of emojis can be found [here](http://www.unicode.org/emoji/charts/full-emoji-list.html).
+
+## Static use in XAML
 
 Since XAML  is an XML-based markup language, we have to use XML escape character `&#;` and we have to replace `U+` prefix by `x` for each part of our emoji :
 
 `U+1F914` become `&#x1F914;` :
 
 ```xaml
-<Lebel Text="&#x1F914;" />
+<Label Text="&#x1F914;" />
 ```
 
-## Use Binding
+## Use Binding 
 
 if you want to use Data Binding to display emoji, let’s define a class that will represent emoji:
 
