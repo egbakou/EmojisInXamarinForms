@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="EmojiInXaml.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:EmojiInXaml"
+    Title="Use of Emoji in XAML">
+
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+
+        <!--  DEFINED IN XAML  -->
+        <Label
+            FontFamily="30"
+            Text="Defined in XAML"
+            TextColor="Black" />
+        <Label
+            FontAttributes="Bold"
+            FontSize="30"
+            Text="&#x1F914;" />
+        <Label
+            FontAttributes="Bold"
+            FontSize="30"
+            Text="&#x2764;​" />
+
+        <!--  USE OF  BINDING  -->
+        <Label
+            FontFamily="30"
+            Text="Using Data Binding"
+            TextColor="Black" />
+        <Label
+            FontFamily="30"
+            Text="{Binding Emoji}"
+            TextColor="Black" />
+    </StackLayout>
+
+</ContentPage>
