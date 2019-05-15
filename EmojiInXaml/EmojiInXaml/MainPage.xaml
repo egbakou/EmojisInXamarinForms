@@ -10,7 +10,6 @@
 
         <!--  DEFINED IN XAML  -->
         <Label
-            FontFamily="30"
             Text="Defined in XAML"
             TextColor="Black" />
         <Label
@@ -24,11 +23,10 @@
 
         <!--  USE OF  BINDING  -->
         <Label
-            FontFamily="30"
             Text="Using Data Binding"
             TextColor="Black" />
         <Label
-            FontFamily="30"
+            FontSize="30"
             Text="{Binding Emoji}"
             TextColor="Black" />
     </StackLayout>
