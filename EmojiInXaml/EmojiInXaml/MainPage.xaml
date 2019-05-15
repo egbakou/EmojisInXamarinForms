@@ -10,7 +10,6 @@
 
         <!--  DEFINED IN XAML  -->
         <Label
-            FontAttributes="Bold"
             Text="Defined in XAML"
             TextColor="Black" />
         <Label
@@ -24,11 +23,9 @@
 
         <!--  USE OF  BINDING  -->
         <Label
-            FontAttributes="Bold"
             Text="Using Data Binding"
             TextColor="Black" />
         <Label
-            FontAttributes="Bold"
             FontSize="30"
             Text="{Binding Emoji}"
             TextColor="Black" />
