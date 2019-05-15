@@ -3,13 +3,13 @@
     x:Class="EmojiInXaml.MainPage"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:EmojiInXaml"
     Title="Use of Emoji in XAML">
 
     <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
 
         <!--  DEFINED IN XAML  -->
         <Label
+            FontAttributes="Bold"
             Text="Defined in XAML"
             TextColor="Black" />
         <Label
@@ -23,9 +23,11 @@
 
         <!--  USE OF  BINDING  -->
         <Label
+            FontAttributes="Bold"
             Text="Using Data Binding"
             TextColor="Black" />
         <Label
+            FontAttributes="Bold"
             FontSize="30"
             Text="{Binding Emoji}"
             TextColor="Black" />
