@@ -1,6 +1,6 @@
 ## Use of Emoji in Xamarin.Forms 🤓🤔👨 🤹‍
 
-![](EmojiInXaml/screenshots/screenshot1.PNG)
+![](EmojiInXaml/screenshots/screenshot.PNG)
 
 
 
